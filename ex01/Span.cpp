@@ -16,14 +16,6 @@ Span Span::operator=(const Span &src){
 }
 Span::~Span(){}
 
-// template <typename IT>
-// void Span::addNumber(IT begin, IT end){
-// 	if(_numbers.size() + std::distance(begin, end) > _max_length){
-// 		throw std::overflow_error("ERROR: span is full, you can not add anymore number!");
-// 	}
-// 	_numbers.insert(_numbers.end(), begin, end);
-// }
-
 void Span::addNumber(int number){
 	if(_numbers.size() == _max_length){
 		throw std::overflow_error("ERROR: span is full, you can not add anymore number!");
