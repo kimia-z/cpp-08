@@ -29,7 +29,7 @@ int main()
 		lst.push_back(2);
 		lst.push_back(3);
 
-		easyfind(lst, 5);
+		easyfind(lst, 1);
 	}
 	catch (const std::exception &e)
 	{
